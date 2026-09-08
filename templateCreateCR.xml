@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<codetemplate	xmlns="http://schemas.borland.com/Delphi/2005/codetemplates"
+				version="1.0.0">
+	<template name="CreateCR" invoke="manual">
+		<description>
+		  contructor Reintroduce and overload;
+		</description>
+		<author>
+            guiixta
+		</author>
+        <point name="param">
+            <text>
+                param
+            </text>
+        </point>
+        <point name="type">
+            <text>
+                type
+            </text>
+        </point>
+		<code language="Delphi"><![CDATA[constructor Create(AOwner: TComponent; $param$: $type$); reintroduce; overload;]]>
+		</code>
+	</template>
+</codetemplate>

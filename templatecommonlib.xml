@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<codetemplate	xmlns="http://schemas.borland.com/Delphi/2005/codetemplates"
+				version="1.0.0">
+	<template name="communlibs" invoke="manual">
+		<description>
+            common libraries without 'uses'
+		</description>
+		<author>
+            guiixta
+		</author>
+		<code language="Delphi"><![CDATA[System.SysUtils,
+  System.Classes,
+  System.StrUtils,
+  System.DateUtils,
+  System.Math,
+  System.UITypes,
+  System.Generics.Collections,
+  Vcl.Dialogs,
+  Winapi.Windows;]]>
+		</code>
+	</template>
+</codetemplate>

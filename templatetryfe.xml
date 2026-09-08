@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<codetemplate	xmlns="http://schemas.borland.com/Delphi/2005/codetemplates"
+				version="1.0.0">
+	<template name="tryfe" invoke="manual">
+		<description>
+		   try finally and try except
+		</description>
+		<author>
+            guiixta
+		</author>
+        <point name='variable'>
+            <text>Variable</text>
+        </point>
+		<code language="Delphi"><![CDATA[try
+    try
+
+    except $variable$: Exception do
+        begin
+
+        end;
+    end;
+finally
+
+end;]]>
+		</code>
+	</template>
+</codetemplate>

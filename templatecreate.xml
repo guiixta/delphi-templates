@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<codetemplate	xmlns="http://schemas.borland.com/Delphi/2005/codetemplates"
+				version="1.0.0">
+	<template name="create" invoke="manual">
+		<description>
+		   create components
+		</description>
+		<author>
+            guiixta
+		</author>
+        <point name="variable">
+            <text>
+                variable
+            </text>
+        </point>
+        <point name="params">
+        </point>
+		<code language="Delphi"><![CDATA[$variable$ := T$variable$.create$params$;]]>
+		</code>
+	</template>
+</codetemplate>

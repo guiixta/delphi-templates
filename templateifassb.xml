@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<codetemplate	xmlns="http://schemas.borland.com/Delphi/2005/codetemplates"
+				version="1.0.0">
+	<template name="ifassb" invoke="manual">
+		<description>
+		  if assigned with begin and end
+		</description>
+		<author>
+            guiixta
+		</author>
+        <point name='variable'>
+            <text>Variable</text>
+        </point>
+        <point name='code'>
+        </point>
+		<code language="Delphi"><![CDATA[if Assigned($variable$) then
+begin
+  $code$
+end;]]>
+		</code>
+	</template>
+</codetemplate>

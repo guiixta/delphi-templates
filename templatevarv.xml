@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<codetemplate	xmlns="http://schemas.borland.com/Delphi/2005/codetemplates"
+				version="1.0.0">
+	<template name="varv" invoke="manual">
+		<description>
+            var value
+		</description>
+		<author>
+            guiixta
+		</author>
+        <point name="variable">
+            <text>
+                variable
+            </text>
+            <hint>
+                Your Variable
+            </hint>
+        </point>
+        <point name="value">
+            <text>
+                value
+            </text>
+        </point>
+		<code language="Delphi"><![CDATA[$variable$ := $value$;]]>
+		</code>
+	</template>
+</codetemplate>

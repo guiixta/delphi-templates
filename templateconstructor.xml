@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<codetemplate	xmlns="http://schemas.borland.com/Delphi/2005/codetemplates"
+				version="1.0.0">
+	<template name="CreateCD" invoke="manual">
+		<description>
+            Constructor Default class;
+		</description>
+		<author>
+            guiixta
+		</author>
+        <point name="params">
+            <text>
+                params
+            </text>
+        </point>
+		<code language="Delphi"><![CDATA[constructor Create$params$;]]>
+		</code>
+	</template>
+</codetemplate>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<codetemplate	xmlns="http://schemas.borland.com/Delphi/2005/codetemplates"
+				version="1.0.0">
+	<template name="ifemssg" invoke="manual">
+		<description>
+            if with messageBox
+		</description>
+		<author>
+            guiixta
+		</author>
+        <point name="message">
+            <text>
+                message
+            </text>
+        </point>
+        <point name="title">
+            <text>
+                title
+            </text>
+        </point>
+        <point name="ifblock">
+        </point>
+        <point name="elseblock">
+        </point>
+		<code language="Delphi"><![CDATA[if Application.MessageBox('$message$', '$title$', MB_YESNO + MB_ICONQUESTION) = IDYES then
+begin
+    $ifblock$
+end
+else
+begin
+    $elseblock$
+end;]]>
+		</code>
+	</template>
+</codetemplate>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<codetemplate	xmlns="http://schemas.borland.com/Delphi/2005/codetemplates"
+				version="1.0.0">
+	<template name="record" invoke="auto">
+		<description>
+            Basic struture record
+		</description>
+		<author>
+            guiixta
+		</author>
+        <point name="Variable">
+            <text>Variable</text>
+        </point>
+        <point name="stats">
+            <text>Stats</text>
+        </point>
+        <point name="type">
+            <text>Integer</text>
+        </point>
+        <point name="next">
+        </point>
+		<code language="Delphi"><![CDATA[$variable$ = record
+    $stats$: $type$;
+    $next$
+end;]]>
+		</code>
+	</template>
+</codetemplate>

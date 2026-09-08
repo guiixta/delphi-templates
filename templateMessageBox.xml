@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<codetemplate	xmlns="http://schemas.borland.com/Delphi/2005/codetemplates"
+				version="1.0.0">
+	<template name="messageBox" invoke="auto">
+		<description>
+            Show Application messageBox
+		</description>
+		<author>
+            guiixta
+		</author>
+        <point name="message">
+            <text>
+                message
+            </text>
+        </point>
+        <point name="title">
+            <text>
+                title
+            </text>
+        </point>
+        <point name="params">
+            <text>
+                params
+            </text>
+        </point>
+		<code language="Delphi"><![CDATA[Application.MessageBox('$message$', '$title$', $params$);]]>
+		</code>
+	</template>
+</codetemplate>
+

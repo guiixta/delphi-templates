@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<codetemplate	xmlns="http://schemas.borland.com/Delphi/2005/codetemplates"
+				version="1.0.0">
+	<template name="with" invoke="auto">
+		<description>
+            block 'with' with begin and end
+		</description>
+		<author>
+           guiixta
+		</author>
+        <point name="variable">
+            <text>MyVariable</text>
+            <hint>Digite o objeto ou variável do with</hint>
+        </point>
+        <point name="stats">
+            <text>Stats</text>
+        </point>
+        <point name="value">
+             <text>Value</text>
+        </point>
+		<code language="Delphi"><![CDATA[with $variable$ do
+begin
+  $stats$ := $value$;
+end;]]>
+        </code>
+	</template>
+</codetemplate>
