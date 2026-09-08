@@ -15,7 +15,12 @@
         </point>
         <point name="params">
         </point>
-		<code language="Delphi"><![CDATA[$variable$ := T$variable$.create$params$;]]>
+        <point name="class">
+            <text>
+                class
+            </text>
+        </point>
+		<code language="Delphi"><![CDATA[$variable$ := T$class$.create$params$;]]>
 		</code>
 	</template>
 </codetemplate>
