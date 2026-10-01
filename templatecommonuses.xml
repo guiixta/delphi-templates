@@ -16,6 +16,7 @@
   System.Math,
   System.UITypes,
   System.Generics.Collections,
+  System.Generics.Defaults,
   Vcl.Dialogs,
   Winapi.Windows;]]>
 		</code>
